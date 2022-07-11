@@ -1,8 +1,10 @@
+import {HeaderStyles} from "./css/Styles";
+
 const Header = () => {
   return (
-    <header>
+    <HeaderStyles>
       <h1>Recipe Box</h1>
-    </header>
+    </HeaderStyles>
   );
 }
 

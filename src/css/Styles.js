@@ -9,7 +9,13 @@ const AppStyles = styled.div`
   min-height: 100vh;
 `;
 
-const FooterStyles = styled.footer`
+let HeaderStyles = styled.header`
+  background-color: ${blue};
+  border-bottom: 4px ${green} solid;
+  color: white;
+`;
+
+let FooterStyles = styled.footer`
   margin-top: auto;
   height: 80px;
   display: flex;
@@ -26,4 +32,4 @@ const LinkStyles = styled.a`
   padding: 4px 20px;
 `;
 
-export {FooterStyles, AppStyles, LinkStyles};
+export {FooterStyles, AppStyles, LinkStyles, HeaderStyles};
