@@ -1,10 +1,14 @@
-import './App.css';
-
+import Header from './Header';
+import RecipeCard from './RecipeCard';
+import Footer from "./Footer";
+import { AppStyles } from "./css/Styles";
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <AppStyles>
+      <Header />
+      <RecipeCard />
+      <Footer />
+    </AppStyles>
   );
 }
 
