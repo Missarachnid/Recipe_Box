@@ -1,8 +1,15 @@
-const RecipeCard = () => {
+import {CardStyles} from "./css/Styles";
+
+const RecipeCard = (props) => {
   return (
-    <div>
-      <h3>Recipe title</h3>
-    </div>
+    <CardStyles >
+      <img src={props.img} alt={props.alt}/>
+        <h3>{props.name}</h3>
+        <div>
+          <p>{props.description}</p>
+          <button>View Recipe</button>
+        </div>
+    </CardStyles>
   )
 }
 
