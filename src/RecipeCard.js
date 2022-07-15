@@ -7,7 +7,7 @@ const RecipeCard = (props) => {
         <h3>{props.name}</h3>
         <div>
           <p>{props.description}</p>
-          <button>View Recipe</button>
+          <button onClick={props.onClick}>View Recipe</button>
         </div>
     </CardStyles>
   )
